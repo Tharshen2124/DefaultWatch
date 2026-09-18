@@ -1,0 +1,5 @@
+and how do i run the main file with uv run btw
+
+---
+
+so...how do i run it now
