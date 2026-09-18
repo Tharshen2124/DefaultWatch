@@ -1,0 +1,3 @@
+verify if my project setup looks alright. The idea is to not include notebooks later on when i try to deployu the model. Im using uv for it. the notebooks is for EDA basically and feature engineering. 
+
+Verify what other parts in the setup needs to be adjusted
