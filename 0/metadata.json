@@ -1,0 +1,169 @@
+{
+  "cli_version": "0.10.6",
+  "checkpoint_id": "01M2TXB0A14BYF5R83VXXDQ16E",
+  "session_id": "b28c4aae-d083-4cba-85e9-616a37788461",
+  "strategy": "manual-commit",
+  "created_at": "2026-09-18T18:44:23.75198Z",
+  "branch": "main",
+  "checkpoints_count": 11,
+  "save_step_count": 11,
+  "files_touched": [
+    "notebooks/eda.ipynb",
+    "notebooks/preprocessing.ipynb"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-5",
+  "turn_id": "40fbed7d07aa",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 70,
+    "cache_creation_tokens": 167040,
+    "cache_read_tokens": 2953765,
+    "output_tokens": 54224,
+    "api_call_count": 35
+  },
+  "session_metrics": {
+    "turn_count": 11
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-09-18T18:44:23.728759Z",
+    "agent_lines": 1008,
+    "agent_removed": 0,
+    "human_added": 209,
+    "human_modified": 539,
+    "human_removed": 0,
+    "total_committed": 1675,
+    "total_lines_changed": 1756,
+    "agent_percentage": 57.40318906605923,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 586,
+      "user_lines_removed": 37,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "notebooks/eda.ipynb": 586
+      },
+      "user_removed_per_file": {
+        "notebooks/eda.ipynb": 37
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 5,
+      "user_lines_removed": 5,
+      "agent_lines_added": 2487,
+      "agent_lines_removed": 112,
+      "user_added_per_file": {
+        "notebooks/eda.ipynb": 5
+      },
+      "user_removed_per_file": {
+        "notebooks/eda.ipynb": 5
+      }
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 2487,
+      "agent_lines_removed": 112
+    },
+    {
+      "checkpoint_number": 4,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 2487,
+      "agent_lines_removed": 112
+    },
+    {
+      "checkpoint_number": 5,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 2487,
+      "agent_lines_removed": 112
+    },
+    {
+      "checkpoint_number": 6,
+      "user_lines_added": 11,
+      "user_lines_removed": 11,
+      "agent_lines_added": 2487,
+      "agent_lines_removed": 112,
+      "user_added_per_file": {
+        "notebooks/eda.ipynb": 10,
+        "notebooks/preprocessing.ipynb": 1
+      },
+      "user_removed_per_file": {
+        "notebooks/eda.ipynb": 10,
+        "notebooks/preprocessing.ipynb": 1
+      }
+    },
+    {
+      "checkpoint_number": 7,
+      "user_lines_added": 122,
+      "user_lines_removed": 81,
+      "agent_lines_added": 2678,
+      "agent_lines_removed": 132,
+      "user_added_per_file": {
+        "notebooks/preprocessing.ipynb": 122
+      },
+      "user_removed_per_file": {
+        "notebooks/preprocessing.ipynb": 81
+      }
+    },
+    {
+      "checkpoint_number": 8,
+      "user_lines_added": 122,
+      "user_lines_removed": 81,
+      "agent_lines_added": 2678,
+      "agent_lines_removed": 132,
+      "user_added_per_file": {
+        "notebooks/preprocessing.ipynb": 122
+      },
+      "user_removed_per_file": {
+        "notebooks/preprocessing.ipynb": 81
+      }
+    },
+    {
+      "checkpoint_number": 9,
+      "user_lines_added": 122,
+      "user_lines_removed": 81,
+      "agent_lines_added": 2678,
+      "agent_lines_removed": 132,
+      "user_added_per_file": {
+        "notebooks/preprocessing.ipynb": 122
+      },
+      "user_removed_per_file": {
+        "notebooks/preprocessing.ipynb": 81
+      }
+    },
+    {
+      "checkpoint_number": 10,
+      "user_lines_added": 122,
+      "user_lines_removed": 81,
+      "agent_lines_added": 2678,
+      "agent_lines_removed": 132,
+      "user_added_per_file": {
+        "notebooks/preprocessing.ipynb": 122
+      },
+      "user_removed_per_file": {
+        "notebooks/preprocessing.ipynb": 81
+      }
+    },
+    {
+      "checkpoint_number": 11,
+      "user_lines_added": 122,
+      "user_lines_removed": 81,
+      "agent_lines_added": 2678,
+      "agent_lines_removed": 132,
+      "user_added_per_file": {
+        "notebooks/preprocessing.ipynb": 122
+      },
+      "user_removed_per_file": {
+        "notebooks/preprocessing.ipynb": 81
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+This research employed a binary variable, default payment (Yes = 1, No = 0), as the response variable. This study reviewed the literature and used the following 23 variables as explanatory variables:
+X1: Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.
+X2: Gender (1 = male; 2 = female).
+X3: Education (1 = graduate school; 2 = university; 3 = high school; 4 = others).
+X4: Marital status (1 = married; 2 = single; 3 = others).
+X5: Age (year).
+X6 - X11: History of past payment. We tracked the past monthly payment records (from April to September, 2005) as follows: X6 = the repayment status in September, 2005; X7 = the repayment status in August, 2005; . . .;X11 = the repayment status in April, 2005. The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months; . . .; 8 = payment delay for eight months; 9 = payment delay for nine months and above.
+X12-X17: Amount of bill statement (NT dollar). X12 = amount of bill statement in September, 2005; X13 = amount of bill statement in August, 2005; . . .; X17 = amount of bill statement in April, 2005. 
+X18-X23: Amount of previous payment (NT dollar). X18 = amount paid in September, 2005; X19 = amount paid in August, 2005; . . .;X23 = amount paid in April, 2005.
+
+
+Above is the variable information taken from the website. Verify the information is accurate against the @notebooks/eda.ipynb notebook you made. 
+
+Once that is done, verify if any changes you did to the dataset. If you did, make sure to separate it into its own notebook. the @eda.ipynb is purely for understanding the dataset.
+
+---
+
+im trying to understand this dataset. So its about default credit cards right? Im assuming that means the one where a person gets their credit card defaulted after payments have not been made over a couple of months. And does this dataset's result basically describe for each row if that person has been defaulted or not depending on how much they did not repay?
+
+Explain in a simple explanation. I can't understand long form explanations
+
+---
+
+right, so from wht you explained, the dataset's y value is basically saying if the person has made the payment for october or not. and we are trying to predict if this payment for october will happen or not for a person we don't know for.
+
+---
+
+i have more questions. Remember, keep it short, straight to the point and simple to understand:
+- what does pay duly mean in the @notebooks/eda.ipynb 
+- i dont understand the 3 types of values, X6-X11, X12-X17 and X18-23. My assumption was that pay 0 is the status of whether payment has been made, and then BILL_AMT is how much the credit card amount they used, then PAY_AMT is how much they paid back for each month iassume
+
+---
+
+if -1 is paid duly, what does 0 mean? Since 1 would just mean they're behind payment by a month
+
+---
+
+What do you mean by "in `formula=" APIs and in SQL
+"Every assertion below is the invariant a change was supposed to preserve. If a future edit to this notebook breaks one, the cell fails loudly instead of quietly shipping a bad table."
+- what does this even mean
+**No scaling, no one-hot encoding, no train/test split here.** Those belong in the modelling pipeline, where they must be fitted on the training fold only — doing them now would leak test information into the file.
+- what does this even mean too?
+
+Your wordings are really weird. they don't sound human natural so it makes it hard to understand what you meant
+
+---
+
+i dont understand the peaking part when its calculating the average. Can you explain it better.
+
+---
+
+no my question was why do we need to calculate the average for?
+
+---
+
+okay we are going a bit too far off. So basically, train/test split later after using values to create new column is bad because we are using values computed from the test results too so its a bit like cheating.
+
+---
+
+sorry but i really don't understand this particular calculation:
+Safe — the calculation only uses that one person's own numbers:
+bill ÷ credit limit
+payment ÷ bill
+Each row is worked out on its own. Nothing to leak.
+
+Not safe — the calculation looks across all rows:
+average, min/max, standard deviation
+"top 10% of spenders"
+These pull in the test rows. Split first.
+
+like what is the point of these? I dont understand why we are deriving new features for. Why do we need bill divide by credit limit
+
+Its verfy confusing. Or those just dummy examples
+
+---
+
+not making sense still. So many more questions. Like where did credit limit and bill come from? There's only balance limit or something from the dataset. Also "Divide the two". What two?
+
+This has been really confusing. Get straight to the point, make it clear. Keep explanation shrot.
